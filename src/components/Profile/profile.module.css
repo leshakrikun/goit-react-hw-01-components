@@ -28,9 +28,9 @@
   height: 370px;
   justify-content: center;
   margin: 10px auto;
-  background-color: aquamarine;
+  background-color: rgb(185, 188, 197);
   position: relative;
-  border: 3px solid #2ec548;
+  border: 3px solid #878d92;
 }
 
 .stats {
@@ -46,15 +46,15 @@
 
   padding: 0;
   margin: 0;
-  border-top: 1px solid #2ec548;
-  border-left: 1px solid #2ec548;
+  border-top: 1px solid #878d92;
+  border-left: 1px solid #878d92;
 }
 .statsItem {
   text-align: center;
   flex: 1 0 2px;
   height: 70px;
-  border-right: 1px solid #2ec548;
-  border-bottom: 1px solid #2ec548;
+  border-right: 1px solid #878d92;
+  border-bottom: 1px solid #878d92;
   box-sizing: border-box;
 }
 .label {

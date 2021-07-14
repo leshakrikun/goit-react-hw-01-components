@@ -16,7 +16,10 @@ ul {
   margin: 0;
   padding-left: 0;
 }
-li {
+/* li {
   margin: 0;
   padding: 0;
+} */
+img {
+  display: block;
 }

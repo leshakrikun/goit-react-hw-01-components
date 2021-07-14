@@ -2,7 +2,7 @@
   justify-content: center;
   margin: 10px auto;
   width: 400px;
-  border: 3px solid #2ec548;
+  border: 3px solid #878d92;
 }
 .title {
   justify-content: center;
@@ -15,7 +15,7 @@
   justify-content: space-around;
   padding: 0;
   margin: 0;
-  border-top: 1px solid #2ec548;
+  border-top: 1px solid #878d92;
   display: flex;
 }
 .item {
@@ -24,7 +24,7 @@
   height: 70px;
 }
 .item:not(:last-child) {
-  border-right: 1px solid #2ec548;
+  border-right: 1px solid #878d92;
 }
 .label {
   display: block;

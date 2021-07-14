@@ -12,7 +12,6 @@ import TransactionList from './components/TransactionHistory/transactionList';
 export default function App() {
   return (
     <div className="js">
-      <TransactionList items={TransactionHistory} />
       <Profile
         name={user.name}
         tag={user.tag}
@@ -22,6 +21,7 @@ export default function App() {
       />
       <StatisticList title="Upload stats" stats={statisticalData} />
       <FriendList friends={friends} />
+      <TransactionList items={TransactionHistory} />
     </div>
   );
 }
